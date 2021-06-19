@@ -1,0 +1,17 @@
+*** Settings ***
+Documentation    this is settings doc
+Library    SeleniumLibrary
+# robot -d results tests/flipkart.robot
+
+*** Variables ***
+
+
+*** Test Cases ***
+Users must sign in to check out
+      [Documentation]    this is some tests info
+      [Tags]    smoke
+      Open Browser    http://www.flipkart.com    ie
+      sleep    5s
+      Close Browser
+
+*** Keywords ***
