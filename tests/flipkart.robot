@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 # robot -d results tests/flipkart.robot
-
+# robot -d results
 *** Variables ***
 
 
